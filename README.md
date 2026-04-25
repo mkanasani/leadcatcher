@@ -10,9 +10,7 @@ A self-hosted mini-CRM + email automation hub for AI agencies. One Netlify deplo
 
 ## Deploy in one click
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/YOUR_GITHUB/leadcatcher)
-
-> Replace `YOUR_GITHUB/leadcatcher` with your repo path before sharing.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mkanasani/leadcatcher)
 
 That's it. Netlify auto-provisions a Postgres database (Netlify DB, powered by Neon) and exposes it as `NETLIFY_DATABASE_URL`. Open the deployed URL → onboarding screen → paste your Resend + Gemini keys → done.
 
