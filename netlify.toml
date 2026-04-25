@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Netlify DB (Neon Postgres) auto-provisions on first deploy and exposes NETLIFY_DATABASE_URL.
+# Reference: https://docs.netlify.com/build/data-and-storage/netlify-db/
